@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+    color: black;
+    line-height: 1.6;
+    height: 100vh;
+    max-width: 100vw;
+    font-size: 14px;
+}
+img{
+    max-width: 100%;
+    min-height: 100%;
+}
+h1{
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:#ff6fa5;
+}
+/* .container {
+    margin: auto;
+    max-width: 1350px;
+  } */
+#header #navbar{
+    padding: 20px 80px;
+    background-color: #fce5ed;
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    z-index: 10;
+}
+.flex{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+ul{
+    list-style: none;
+}
+li{
+    margin-left: 60px;
+}
+
+.bg-primary{
+    background-color: #ff6fa5;
+    color: #fff;
+}
+.bg-secondary{
+    background-color: black;
+    color: #fff;
+}
+.bg-light{
+    background-color: #fce5ed;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #ff6fa5;
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: black;
+    color: #fff;
+}
+/*****/
+#header span{
+    font-size: 24px;
+}
+#header .logo-text{
+    font-weight: bold; 
+    color: #ff6fa5;
+}
+
+#header .logo-img{
+    width: 25%;
+    border-radius: 50%;
+    border: black 1px solid;
+}
+/*Showcase*/
+#showcase {
+    background: url(/img/showcase1.jpg) no-repeat center center/cover;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+#showcase .text-slide{
+    width: 40%;
+    position: absolute;
+    top: 50%;
+    left:30%;
+    transform: translate(-50%,-50%);
+
+}
+#showcase p{
+    margin-bottom: 50px;
+}
+/*Color nails*/
+#color-nails{
+    margin: 80px 0;
+}
+#color-nails h1{
+
+    text-align: center;
+}
+#color-nails .flex-items{
+    display: flex;
+    justify-content: space-between;
+
+}
+#color-nails .box{
+    width:32%; 
+    background-color: black;  
+    position: relative;
+}
+#color-nails img:before{
+    content: '';
+    opacity: 1;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+}
+#color-nails .nails{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+}
+/*Trend*/
+#trends{
+    padding: 80px;
+    width: 100%;
+}
+#trends .trend2{
+    margin: -100px 0 0 0;
+}
+#trends .left, .right{
+    width: 50%;
+    height: 500px;
+}
+#trends .right{
+    padding: 0 60px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ #trends .left {
+    line-height: 0;
+}
+#trends .left img {
+    object-fit: cover;
+}
+/*Services*/
+#services{
+    display: flex;
+    flex-direction: row;
+    margin: 80px 0;
+}
+#services .left{
+    width: 50%;
+}
+#services .left img{
+    width: 100%;
+}
+#services .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#services .right h1{
+    font-size: 32px;
+    text-align: center;
+}
+#services .right p{
+    padding: 0 80px;
+}
+#services a{
+    margin: 30px 80px;
+    display: inline-block;
+}
+/*Nails art*/
+#nails-art{
+    padding: 0 54px;
+}
+#nails-art .tittle{
+    text-align: center;
+    margin-bottom: -10px;
+}
+#nails-art .block{
+    flex: 25%;
+    width: 322px;
+    height: 322px;
+    padding: 10px 10px;
+}
+
+#nails-art .lists{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+#nails-art img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*Reviews*/
+#reviews{
+    margin: 60px 0;  
+    text-align: center;
+}
+#reviews p{
+    padding: 0 60px;
+}
+#reviews i{
+    color: #ff6fa5;
+    font-size: 14px;
+}
+#footer{
+    background-color: black;
+    color: #fff;
+    padding: 60px 0;
+}
+#footer .col{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#footer i{
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #fff;
+}
+@media(max-width: 768px){
+
+}
